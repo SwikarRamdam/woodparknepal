@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>woodparknepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Kolker+Brush&family=Vujahday+Script&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main" id="main">
+        <!-- <div class="navbar"> -->
+        <div class="navlist">
+            <div class="slogan">
+                <h3>WoodParkNepal</h3>
+                <p> Furnish Your Life </p>
+            </div>
+            <ul>
+                <li><a href="#main">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><img src="moon.png" id="icon" alt=""></li>
+                
+            </ul>
+            <div class="logobox">
+                <img src="woodpark.png" alt="logo">
+            </div>
+        </div>
+<div class="khalithau">
+    Swikar
+</div>
+
+        <section  class="about" id="about"  >
+            <div class="top-segment">
+                <h1>Best Products || Best Price || Best Services</h1>
+                <p class="about-para">We offer furnitures of all kinds for houses, hotels, bars, restaurents, schools and colleges. <br> Our main motto is to serve our customers with the best products and services at reasonable prices. <br>
+                The furnitures we make are made up of quality wood collected form their natural habitats through our dealers located at different places across Nepal. <br>
+                The head office of woodparknepal lies in Dharan,Nepal.</p>
+            </div>
+            <!-- <div class="down-segment">
+                <img src="coverpic.jpg" alt="">
+                <img src="coverpic.jpg" alt="">
+                <img src="coverpic.jpg" alt="">
+            </div> -->
+        </section>
+        <!-- <div class="services">
+            We provide free warranty services in our all products for one whole year under the terms and conditions.
+        </div> -->
+        <section  id="contact">
+            <div  class="contact" >
+                <h1>Contact Us</h1>
+                <p>Telephone No : 025-54678 <br>Mo. No: 9824383984 <br>E-mail : woodparknepal@gmail.com <br></p>
+            </div>
+        </section>
+    </div>
+  
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick=function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "sun.png";
+        }
+        else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+
+</body>
+
+</html>
